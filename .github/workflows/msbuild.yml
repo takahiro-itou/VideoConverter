@@ -2,7 +2,7 @@
 name : MSBuild
 
 env :
-  SOLUTION_FILE_PATH : .
+  SOLUTION_FILE_PATH : View
 
 jobs :
   build :
