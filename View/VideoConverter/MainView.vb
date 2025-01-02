@@ -1,38 +1,15 @@
 ﻿Public Class MainView
 
-Private Sub RunCommand(ByVal command As String)
-''--------------------------------------------------------------------
-''    指定したコマンドを実行する。
-''--------------------------------------------------------------------
+Private Sub RunCount(ByVal message As String)
+    Dim result As Integer
+    Dim outText As String
+    Dim objWrapper As SampleWrapper.Common.SampleDocument = New SampleWrapper.Common.SampleDocument()
 
-    Using process As New System.Diagnostics.Process()
-        process.StartInfo.FileName = "ipconfig.exe"
-        process.StartInfo.UseShellExecute = False
-        process.StartInfo.RedirectStandardInput = False
-        process.StartInfo.RedirectStandardOutput = True
-        process.StartInfo.RedirectStandardError = False
-        process.Start()
-
-        Dim Reader As System.IO.StreamReader = process.StandardOutput
-        Dim output As String = Reader.ReadToEnd()
-
-        txtOutput.Text = output
-        process.WaitForExit()
-        process.Close()
-    End Using
-
-End Sub
-
-
-Private Sub btnRun_Click(sender As Object, e As EventArgs) Handles _
-            btnRun.Click
-''--------------------------------------------------------------------
-''    「実行」ボタンのクリックイベントハンドラ。
-''
-''    入力したコマンドを実行する。
-''--------------------------------------------------------------------
-
-    RunCommand(txtCommand.Text)
+    objWrapper.setMessage(message)
+    result = objWrapper.countAlphabet()
+    outText = "入力した文字列中のアルファベットの個数は " & result
+    SampleControl1.OutputText = outText
+    MsgBox(outText, MsgBoxStyle.OkOnly)
 End Sub
 
 Private Sub mnuFileExit_Click(sender As Object, e As EventArgs) Handles _
@@ -40,18 +17,25 @@ Private Sub mnuFileExit_Click(sender As Object, e As EventArgs) Handles _
 ''--------------------------------------------------------------------
 ''    メニュー「ファイル」－「終了」
 ''--------------------------------------------------------------------
-
     Application.Exit()
 End Sub
 
-
-Private Sub mnuRunCommand_Click(sender As Object, e As EventArgs) Handles _
-            mnuRunCommand.Click
+Private Sub mnuRunCount_Click(sender As Object, e As EventArgs) Handles _
+            mnuRunCount.Click
 ''--------------------------------------------------------------------
-''    メニュー「実行」－「コマンドを実行」
+''    メニュー「実行」－「カウント」
 ''--------------------------------------------------------------------
+    RunCount(SampleControl1.InputText)
+End Sub
 
-    RunCommand(txtCommand.Text)
+Private Sub SampleControl1_RunButtonClick(sender As Object, e As EventArgs) _
+    Handles SampleControl1.RunButtonClick
+''--------------------------------------------------------------------
+''    イベントハンドラ
+''
+''    ユーザーコントロールの「実行ボタンクリック」
+''--------------------------------------------------------------------
+    RunCount(SampleControl1.InputText)
 End Sub
 
 End Class
