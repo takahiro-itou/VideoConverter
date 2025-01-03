@@ -85,6 +85,56 @@
     <value>564, 104</value>
   </data>
 
+  <data name="&gt;&gt;cmbChannels.Name" xml:space="preserve">
+    <value>cmbChannels</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbChannels.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbChannels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbChannels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbChannels.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+
+  <data name="&gt;&gt;cmbVolume.Name" xml:space="preserve">
+    <value>cmbVolume</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+
   <data name="&gt;&gt;fraAudioConfig.Name" xml:space="preserve">
     <value>fraAudioConfig</value>
   </data>
@@ -111,6 +161,68 @@
   </data>
   <data name="fraAudioConfig.Text" xml:space="preserve">
     <value>&amp;Audio Config</value>
+  </data>
+
+  <data name="&gt;&gt;lblChannel.Name" xml:space="preserve">
+    <value>lblChannel</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblChannel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblChannel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblChannel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblChannel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblChannel.Text" xml:space="preserve">
+    <value>Channels:</value>
+  </data>
+  <data name="lblChannel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblVolume.Name" xml:space="preserve">
+    <value>lblVolume</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="lblVolume.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
 
   <data name="&gt;&gt;spcAudioConfig.Name" xml:space="preserve">
