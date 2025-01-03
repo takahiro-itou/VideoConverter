@@ -135,6 +135,31 @@
     <value>9</value>
   </data>
 
+  <data name="&gt;&gt;cmbFrameRate.Name" xml:space="preserve">
+    <value>cmbFrameRate</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbFrameRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+
   <data name="&gt;&gt;cmbSize.Name" xml:space="preserve">
     <value>cmbSize</value>
   </data>
@@ -247,6 +272,37 @@
     <value>Format:</value>
   </data>
   <data name="lblFormat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblFrameRate.Name" xml:space="preserve">
+    <value>lblFrameRate</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFrameRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblFrameRate.Text" xml:space="preserve">
+    <value>Frame Rate:</value>
+  </data>
+  <data name="lblFrameRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
 
