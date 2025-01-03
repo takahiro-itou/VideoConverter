@@ -1,4 +1,4 @@
-
+﻿
 namespace WinFormsControl
 {
 
@@ -183,7 +183,6 @@ partial class VideoConfig
     private ComboBox cmbSize;
     private Label lblAspect;
     private ComboBox cmbAspect;
-
     private Label lblCodec;
     private ComboBox cmbCodec;
     private Label lblFrameRate;
