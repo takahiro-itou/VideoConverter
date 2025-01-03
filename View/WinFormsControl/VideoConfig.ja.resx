@@ -59,4 +59,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 
+  <data name="fraVideConfig.Text" xml:space="preserve">
+    <value>動画設定</value>
+  </data>
+
+  <data name="lblAspect.Text" xml:space="preserve">
+    <value>アスペクト比:</value>
+  </data>
+
+  <data name="lblBitRate.Text" xml:space="preserve">
+    <value>ビットレート:</value>
+  </data>
+
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>コーデック:</value>
+  </data>
+
+  <data name="lblFormat.Text" xml:space="preserve">
+    <value>ファイル形式:</value>
+  </data>
+
+  <data name="lblFrameRate.Text" xml:space="preserve">
+    <value>フレームレート:</value>
+  </data>
+
+  <data name="lblSize.Text" xml:space="preserve">
+    <value>サイズ:</value>
+  </data>
+
 </root>
