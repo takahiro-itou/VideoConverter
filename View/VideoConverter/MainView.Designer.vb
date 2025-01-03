@@ -1,4 +1,5 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MainView
     Inherits System.Windows.Forms.Form
 
@@ -31,8 +32,9 @@ Partial Class MainView
         Me.mnuRun = New ToolStripMenuItem()
         Me.mnuRunCount = New ToolStripMenuItem()
 
-        Me.OpenFileDialog1 = New OpenFileDialog()
-        Me.SampleControl1 = New WinFormsControl.SampleControl()
+        Me.dlgOpenFile = New OpenFileDialog()
+        Me.wfcVideoConfig = New WinFormsControl.VideoConfig()
+        Me.wfcAudioConfig = New WinFormsControl.AudioConfig()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
@@ -66,18 +68,21 @@ Partial Class MainView
         Me.mnuRunCount.Name = "mnuRunCount"
 
         '
-        ' OpenFileDialog1
+        ' dlgOpenFile
         '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        resources.ApplyResources(Me.OpenFileDialog1, "OpenFileDialog1")
+        Me.dlgOpenFile.FileName = "dlgOpenFile"
+        resources.ApplyResources(Me.dlgOpenFile, "dlgOpenFile")
 
         '
-        ' SampleControl1
+        ' wfcVideoConfig
         '
-        resources.ApplyResources(SampleControl1, "SampleControl1")
-        SampleControl1.InputText = ""
-        SampleControl1.Name = "SampleControl1"
-        SampleControl1.OutputText = ""
+        resources.ApplyResources(Me.wfcVideoConfig, "wfcVideoConfig")
+        Me.wfcVideoConfig.Name = "wfcVideoConfig"
+        '
+        ' wfcAudioConfig
+        '
+        resources.ApplyResources(wfcAudioConfig, "wfcAudioConfig")
+        Me.wfcAudioConfig.Name = "wfcAudioConfig"
         '
         ' DataGridView1
         '
@@ -91,7 +96,8 @@ Partial Class MainView
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = AutoScaleMode.None
-        Me.Controls.Add(Me.SampleControl1)
+        Me.Controls.Add(Me.wfcVideoConfig)
+        Me.Controls.Add(Me.wfcAudioConfig)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.mnuMain)
         Me.MainMenuStrip = Me.mnuMain
@@ -104,13 +110,14 @@ Partial Class MainView
 
     End Sub
 
-    Friend WithEvents SampleControl1 As WinFormsControl.SampleControl
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents mnuMain As MenuStrip
     Friend WithEvents mnuFile As ToolStripMenuItem
     Friend WithEvents mnuFileExit As ToolStripMenuItem
     Friend WithEvents mnuRun As ToolStripMenuItem
     Friend WithEvents mnuRunCount As ToolStripMenuItem
-    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents dlgOpenFile As OpenFileDialog
+    Friend WithEvents wfcVideoConfig As WinFormsControl.VideoConfig
+    Friend WithEvents wfcAudioConfig As WinFormsControl.AudioConfig
 
 End Class

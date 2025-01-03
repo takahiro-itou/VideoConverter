@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AudioConfig</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ ゴシック, 9pt</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 104</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+
+  <data name="&gt;&gt;cmbAudioDelay.Name" xml:space="preserve">
+    <value>cmbAudioDelay</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbAudioDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbAudioDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="cmbAudioDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbAudioDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+
+  <data name="&gt;&gt;cmbBitRate.Name" xml:space="preserve">
+    <value>cmbBitRate</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbBitRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="cmbBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+
+  <data name="&gt;&gt;cmbChannels.Name" xml:space="preserve">
+    <value>cmbChannels</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbChannels.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbChannels.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbChannels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbChannels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbChannels.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+
+  <data name="&gt;&gt;cmbCodec.Name" xml:space="preserve">
+    <value>cmbCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+
+  <data name="&gt;&gt;cmbSampleRate.Name" xml:space="preserve">
+    <value>cmbSampleRate</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbSampleRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbSampleRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbSampleRate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+
+  <data name="&gt;&gt;cmbVolume.Name" xml:space="preserve">
+    <value>cmbVolume</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbVolume.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+
+  <data name="&gt;&gt;fraAudioConfig.Name" xml:space="preserve">
+    <value>fraAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fraAudioConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="fraAudioConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraAudioConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="fraAudioConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fraAudioConfig.Text" xml:space="preserve">
+    <value>&amp;Audio Config</value>
+  </data>
+
+  <data name="&gt;&gt;lblBitRate.Name" xml:space="preserve">
+    <value>lblBitRate</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblBitRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="lblBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblBitRate.Text" xml:space="preserve">
+    <value>Bit Rate:</value>
+  </data>
+  <data name="lblBitRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblChannel.Name" xml:space="preserve">
+    <value>lblChannel</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChannel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblChannel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblChannel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblChannel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblChannel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblChannel.Text" xml:space="preserve">
+    <value>Channels:</value>
+  </data>
+  <data name="lblChannel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblCodec.Name" xml:space="preserve">
+    <value>lblCodec</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCodec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>Codec:</value>
+  </data>
+  <data name="lblCodec.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblDelay.Name" xml:space="preserve">
+    <value>lblDelay</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="lblDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblDelay.Text" xml:space="preserve">
+    <value>Delay Corr.</value>
+  </data>
+  <data name="lblDelay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblSampleRate.Name" xml:space="preserve">
+    <value>lblSampleRate</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSampleRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSampleRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblSampleRate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblSampleRate.Text" xml:space="preserve">
+    <value>Sample Rate:</value>
+  </data>
+  <data name="lblSampleRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblVolume.Name" xml:space="preserve">
+    <value>lblVolume</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="lblVolume.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Name" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Parent" xml:space="preserve">
+    <value>fraAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spcAudioConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="spcAudioConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="spcAudioConfig.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 78</value>
+  </data>
+  <data name="spcAudioConfig.SplitterDistance" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Name" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Parent" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Name" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Parent" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+
+</root>

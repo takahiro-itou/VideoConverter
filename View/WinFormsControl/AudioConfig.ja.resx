@@ -59,34 +59,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-
-  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
-  </data>
-  <data name="mnuFile.Text" xml:space="preserve">
-    <value>ファイル (&amp;F)</value>
+  <data name="fraAudioConfig.Text" xml:space="preserve">
+    <value>音声設定</value>
   </data>
 
-  <data name="mnuFileExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="mnuFileExit.Text" xml:space="preserve">
-    <value>終了 (&amp;X)</value>
+  <data name="lblBitRate.Text" xml:space="preserve">
+    <value>ビットレート:</value>
   </data>
 
-  <data name="mnuRun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="mnuRun.Text" xml:space="preserve">
-    <value>実行 (&amp;R)</value>
+  <data name="lblChannel.Text" xml:space="preserve">
+    <value>チャンネル:</value>
   </data>
 
-  <data name="mnuRunCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>コーデック:</value>
   </data>
-  <data name="mnuRunCount.Text" xml:space="preserve">
-    <value>カウント (&amp;C)</value>
+
+  <data name="lblDelay.Text" xml:space="preserve">
+    <value>音ズレ補正:</value>
+  </data>
+
+  <data name="lblSampleRate.Text" xml:space="preserve">
+    <value>サンプルレート:</value>
+  </data>
+
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>音量補正:</value>
   </data>
 
 </root>
