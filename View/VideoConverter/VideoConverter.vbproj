@@ -5,7 +5,6 @@
     <OutputType>WinExe</OutputType>
     <TargetFrameworks>
       net6.0-windows;
-      net35;
       net45;
       net48;
     </TargetFrameworks>
