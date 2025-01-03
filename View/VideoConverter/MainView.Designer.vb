@@ -77,7 +77,7 @@ Partial Class MainView
         ' wfcVideoConfig
         '
         resources.ApplyResources(Me.wfcVideoConfig, "wfcVideoConfig")
-        Me.VideoConfig.Name = "wfcVideoConfig"
+        Me.wfcVideoConfig.Name = "wfcVideoConfig"
         '
         ' wfcAudioConfig
         '
