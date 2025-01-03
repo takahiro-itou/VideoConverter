@@ -85,4 +85,92 @@
     <value>564, 104</value>
   </data>
 
+  <data name="&gt;&gt;fraVideoConfig.Name" xml:space="preserve">
+    <value>fraVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fraVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="fraVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="fraVideoConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fraVideoConfig.Text" xml:space="preserve">
+    <value>Video Config</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Name" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Parent" xml:space="preserve">
+    <value>fraVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spcVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="spcVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="spcVideoConfig.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 78</value>
+  </data>
+  <data name="spcVideoConfig.SplitterDistance" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Name" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Parent" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Name" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Parent" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+
 </root>
