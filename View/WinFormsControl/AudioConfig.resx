@@ -85,6 +85,31 @@
     <value>564, 104</value>
   </data>
 
+  <data name="&gt;&gt;cmbAudioDelay.Name" xml:space="preserve">
+    <value>cmbAudioDelay</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioDelay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbAudioDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbAudioDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="cmbAudioDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbAudioDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+
   <data name="&gt;&gt;cmbChannels.Name" xml:space="preserve">
     <value>cmbChannels</value>
   </data>
@@ -191,6 +216,37 @@
     <value>Channels:</value>
   </data>
   <data name="lblChannel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblDelay.Name" xml:space="preserve">
+    <value>lblDelay</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="lblDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblDelay.Text" xml:space="preserve">
+    <value>Delay Corr.</value>
+  </data>
+  <data name="lblDelay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
 
