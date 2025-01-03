@@ -85,4 +85,92 @@
     <value>564, 104</value>
   </data>
 
+  <data name="&gt;&gt;fraAudioConfig.Name" xml:space="preserve">
+    <value>fraAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraAudioConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fraAudioConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="fraAudioConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraAudioConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="fraAudioConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fraAudioConfig.Text" xml:space="preserve">
+    <value>&amp;Audio Config</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Name" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Parent" xml:space="preserve">
+    <value>fraAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spcAudioConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="spcAudioConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="spcAudioConfig.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 78</value>
+  </data>
+  <data name="spcAudioConfig.SplitterDistance" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcAudioConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Name" xml:space="preserve">
+    <value>spcAudioConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Parent" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Name" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Parent" xml:space="preserve">
+    <value>spcAudioConfig</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcAudioConfig.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+
 </root>
