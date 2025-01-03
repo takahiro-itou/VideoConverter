@@ -85,6 +85,31 @@
     <value>564, 104</value>
   </data>
 
+  <data name="&gt;&gt;cmbCodec.Name" xml:space="preserve">
+    <value>cmbCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+
   <data name="&gt;&gt;cmbFormat.Name" xml:space="preserve">
     <value>cmbFormat</value>
   </data>
@@ -136,6 +161,37 @@
   </data>
   <data name="fraVideoConfig.Text" xml:space="preserve">
     <value>Video Config</value>
+  </data>
+
+  <data name="&gt;&gt;lblCodec.Name" xml:space="preserve">
+    <value>lblCodec</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCodec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>Codec:</value>
+  </data>
+  <data name="lblCodec.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
 
   <data name="&gt;&gt;lblFormat.Name" xml:space="preserve">
