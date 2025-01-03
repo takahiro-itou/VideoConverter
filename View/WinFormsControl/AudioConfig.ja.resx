@@ -59,4 +59,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 
+  <data name="fraAudioConfig.Text" xml:space="preserve">
+    <value>音声設定</value>
+  </data>
+
+  <data name="lblBitRate.Text" xml:space="preserve">
+    <value>ビットレート:</value>
+  </data>
+
+  <data name="lblChannel.Text" xml:space="preserve">
+    <value>チャンネル:</value>
+  </data>
+
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>コーデック:</value>
+  </data>
+
+  <data name="lblDelay.Text" xml:space="preserve">
+    <value>音ズレ補正:</value>
+  </data>
+
+  <data name="lblSampleRate.Text" xml:space="preserve">
+    <value>サンプルレート:</value>
+  </data>
+
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>音量補正:</value>
+  </data>
+
 </root>
