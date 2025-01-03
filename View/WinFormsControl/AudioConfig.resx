@@ -135,6 +135,56 @@
     <value>15</value>
   </data>
 
+  <data name="&gt;&gt;cmbCodec.Name" xml:space="preserve">
+    <value>cmbCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+
+  <data name="&gt;&gt;cmbSampleRate.Name" xml:space="preserve">
+    <value>cmbSampleRate</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSampleRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbSampleRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbSampleRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbSampleRate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+
   <data name="&gt;&gt;cmbVolume.Name" xml:space="preserve">
     <value>cmbVolume</value>
   </data>
@@ -219,6 +269,37 @@
     <value>MiddleRight</value>
   </data>
 
+  <data name="&gt;&gt;lblCodec.Name" xml:space="preserve">
+    <value>lblCodec</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCodec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>Codec:</value>
+  </data>
+  <data name="lblCodec.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
   <data name="&gt;&gt;lblDelay.Name" xml:space="preserve">
     <value>lblDelay</value>
   </data>
@@ -247,6 +328,37 @@
     <value>Delay Corr.</value>
   </data>
   <data name="lblDelay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblSampleRate.Name" xml:space="preserve">
+    <value>lblSampleRate</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.Parent" xml:space="preserve">
+    <value>spcAudioConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSampleRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSampleRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSampleRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblSampleRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblSampleRate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblSampleRate.Text" xml:space="preserve">
+    <value>Sample Rate:</value>
+  </data>
+  <data name="lblSampleRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
 
