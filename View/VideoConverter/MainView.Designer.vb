@@ -33,8 +33,7 @@ Partial Class MainView
         Me.mnuRunCount = New ToolStripMenuItem()
 
         Me.dlgOpenFile = New OpenFileDialog()
-        Me.wfcVideoConfig = New WinFormsControl.VideoConfig()
-        Me.wfcAudioConfig = New WinFormsControl.AudioConfig()
+        Me.wfcEncodeConfig = New WinFormsControl.EncodeConfig();
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
@@ -74,15 +73,10 @@ Partial Class MainView
         resources.ApplyResources(Me.dlgOpenFile, "dlgOpenFile")
 
         '
-        ' wfcVideoConfig
+        ' wfcEncodeConfig
         '
-        resources.ApplyResources(Me.wfcVideoConfig, "wfcVideoConfig")
-        Me.wfcVideoConfig.Name = "wfcVideoConfig"
-        '
-        ' wfcAudioConfig
-        '
-        resources.ApplyResources(wfcAudioConfig, "wfcAudioConfig")
-        Me.wfcAudioConfig.Name = "wfcAudioConfig"
+        resources.ApplyResources(Me.wfcEncodeConfig, "wfcEncodeConfig")
+        Me.wfcEncodeConfig.Name = "wfcEncodeConfig"
         '
         ' DataGridView1
         '
@@ -117,7 +111,6 @@ Partial Class MainView
     Friend WithEvents mnuRun As ToolStripMenuItem
     Friend WithEvents mnuRunCount As ToolStripMenuItem
     Friend WithEvents dlgOpenFile As OpenFileDialog
-    Friend WithEvents wfcVideoConfig As WinFormsControl.VideoConfig
-    Friend WithEvents wfcAudioConfig As WinFormsControl.AudioConfig
+    Friend WithEvents wfcEncodeConfig As WinFormsControl.EncodeConfig
 
 End Class
