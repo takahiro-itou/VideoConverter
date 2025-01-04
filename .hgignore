@@ -1,15 +1,9 @@
 
 syntax: glob
-Debug/
-Release/
-ipch/
-bin/
-obj/
-
-*.sdf
-*.suo
 
 syntax: regexp
 ^\.git/
-^.vs/
+
+subinclude:Core/.hgignore
+subinclude:View/.hgignore
 

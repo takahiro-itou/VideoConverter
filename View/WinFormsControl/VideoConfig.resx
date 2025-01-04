@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VideoConfig</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ ゴシック, 9pt</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 104</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+
+  <data name="&gt;&gt;cmbAspect.Name" xml:space="preserve">
+    <value>cmbAspect</value>
+  </data>
+  <data name="&gt;&gt;cmbAspect.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbAspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAspect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbAspect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbAspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="cmbAspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbAspect.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+
+  <data name="&gt;&gt;cmbBitRate.Name" xml:space="preserve">
+    <value>cmbBitRate</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBitRate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbBitRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 56</value>
+  </data>
+  <data name="cmbBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+
+  <data name="&gt;&gt;cmbCodec.Name" xml:space="preserve">
+    <value>cmbCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCodec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+
+  <data name="&gt;&gt;cmbFormat.Name" xml:space="preserve">
+    <value>cmbFormat</value>
+  </data>
+  <data name="&gt;&gt;cmbFormat.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFormat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="cmbFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+
+  <data name="&gt;&gt;cmbFrameRate.Name" xml:space="preserve">
+    <value>cmbFrameRate</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFrameRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbFrameRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+
+  <data name="&gt;&gt;cmbSize.Name" xml:space="preserve">
+    <value>cmbSize</value>
+  </data>
+  <data name="&gt;&gt;cmbSize.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="cmbSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="cmbSize.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+
+  <data name="&gt;&gt;fraVideoConfig.Name" xml:space="preserve">
+    <value>fraVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraVideoConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fraVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="fraVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 104</value>
+  </data>
+  <data name="fraVideoConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fraVideoConfig.Text" xml:space="preserve">
+    <value>Video Config</value>
+  </data>
+
+  <data name="&gt;&gt;lblAspect.Name" xml:space="preserve">
+    <value>lblAspect</value>
+  </data>
+  <data name="&gt;&gt;lblAspect.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblAspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAspect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblAspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="lblAspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblAspect.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblAspect.Text" xml:space="preserve">
+    <value>Aspect Ratio:</value>
+  </data>
+  <data name="lblAspect.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblBitRate.Name" xml:space="preserve">
+    <value>lblBitRate</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBitRate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblBitRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="lblBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblBitRate.Text" xml:space="preserve">
+    <value>Bit Rate:</value>
+  </data>
+  <data name="lblBitRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblCodec.Name" xml:space="preserve">
+    <value>lblCodec</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodec.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCodec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblCodec.Text" xml:space="preserve">
+    <value>Codec:</value>
+  </data>
+  <data name="lblCodec.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblFormat.Name" xml:space="preserve">
+    <value>lblFormat</value>
+  </data>
+  <data name="&gt;&gt;lblFormat.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFormat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="lblFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="lblFormat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblFrameRate.Name" xml:space="preserve">
+    <value>lblFrameRate</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrameRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFrameRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrameRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblFrameRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblFrameRate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblFrameRate.Text" xml:space="preserve">
+    <value>Frame Rate:</value>
+  </data>
+  <data name="lblFrameRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;lblSize.Name" xml:space="preserve">
+    <value>lblSize</value>
+  </data>
+  <data name="&gt;&gt;lblSize.Parent" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lblSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblSize.Text" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="lblSize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Name" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Parent" xml:space="preserve">
+    <value>fraVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spcVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="spcVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="spcVideoConfig.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 78</value>
+  </data>
+  <data name="spcVideoConfig.SplitterDistance" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="spcVideoConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Name" xml:space="preserve">
+    <value>spcVideoConfig.Panel1</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Parent" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Name" xml:space="preserve">
+    <value>spcVideoConfig.Panel2</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Parent" xml:space="preserve">
+    <value>spcVideoConfig</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spcVideoConfig.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+
+</root>
