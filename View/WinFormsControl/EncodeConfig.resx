@@ -92,7 +92,7 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbPreset.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="cmbPreset.Location" type="System.Drawing.Point, System.Drawing">
     <value>112, 4</value>
@@ -117,7 +117,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 4</value>
@@ -126,7 +126,7 @@
     <value>96, 20</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>0</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
     <value>Preset:</value>
@@ -134,7 +134,6 @@
   <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-
 
   <data name="&gt;&gt;wfcAudio.Name" xml:space="preserve">
     <value>wfcAudio</value>
@@ -146,7 +145,7 @@
     <value>WinFormsControl.AudioConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wfcAudio.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="wfcAudio.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
@@ -177,7 +176,7 @@
     <value>WinFormsControl.VideoConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wfcVideo.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="wfcVideo.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
