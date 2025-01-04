@@ -167,34 +167,34 @@
     <value>3</value>
   </data>
 
-  <data name="&gt;&gt;wfcVideoConfig.Name" xml:space="preserve">
-    <value>wfcVideoConfig</value>
+  <data name="&gt;&gt;wfcVideo.Name" xml:space="preserve">
+    <value>wfcVideo</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.Parent" xml:space="preserve">
+  <data name="&gt;&gt;wfcVideo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.Type" xml:space="preserve">
+  <data name="&gt;&gt;wfcVideo.Type" xml:space="preserve">
     <value>WinFormsControl.VideoConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;wfcVideo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="wfcVideoConfig.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="wfcVideo.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
   </data>
-  <data name="wfcVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="wfcVideo.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 32</value>
   </data>
-  <data name="wfcVideoConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="wfcVideo.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>0, 104</value>
   </data>
-  <data name="wfcVideoConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="wfcVideo.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>564, 104</value>
   </data>
-  <data name="wfcVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="wfcVideo.Size" type="System.Drawing.Size, System.Drawing">
     <value>564, 104</value>
   </data>
-  <data name="wfcVideoConfig.TabIndex" type="System.Int32, mscorlib">
+  <data name="wfcVideo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
 
