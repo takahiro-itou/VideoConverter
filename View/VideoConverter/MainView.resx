@@ -228,35 +228,35 @@
     <value>1</value>
   </data>
 
-  <data name="&gt;&gt;wfcVideoConfig.Name" xml:space="preserve">
-    <value>wfcVideoConfig</value>
+  <data name="&gt;&gt;wfcEncodeConfig.Name" xml:space="preserve">
+    <value>wfcEncodeConfig</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.Parent" xml:space="preserve">
+  <data name="&gt;&gt;wfcEncodeConfig.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.Type" xml:space="preserve">
-    <value>WinFormsControl.VideoConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;wfcEncodeConfig.Type" xml:space="preserve">
+    <value>WinFormsControl.EncodeConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;wfcVideoConfig.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;wfcEncodeConfig.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="wfcVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="wfcEncodeConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="wfcVideoConfig.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="wfcEncodeConfig.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
   </data>
-  <data name="wfcVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, -1</value>
+  <data name="wfcEncodeConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
   </data>
-  <data name="wfcVideoConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 104</value>
+  <data name="wfcEncodeConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 248</value>
   </data>
-  <data name="wfcVideoConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
+  <data name="wfcEncodeConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>564, 248</value>
   </data>
-  <data name="wfcVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
+  <data name="wfcEncodeConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 248</value>
   </data>
 
   <data name="&gt;&gt;SampleControl1.Name" xml:space="preserve">
