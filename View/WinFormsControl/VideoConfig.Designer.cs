@@ -32,7 +32,7 @@ partial class VideoConfig
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VideoConfig));
 
-        fraVideConfig = new GroupBox();
+        fraVideoConfig = new GroupBox();
         spcVideoConfig = new SplitContainer();
         lblFormat = new Label();
         cmbFormat = new ComboBox();
@@ -51,16 +51,16 @@ partial class VideoConfig
         spcVideoConfig.Panel1.SuspendLayout();
         spcVideoConfig.Panel2.SuspendLayout();
         spcVideoConfig.SuspendLayout();
-        fraVideConfig.SuspendLayout();
+        fraVideoConfig.SuspendLayout();
         this.SuspendLayout();
 
         //
-        // fraVideConfig
+        // fraVideoConfig
         //
-        resources.ApplyResources(fraVideConfig, "fraVideConfig");
-        fraVideConfig.Controls.Add(spcVideoConfig);
-        fraVideConfig.Name = "fraVideConfig";
-        fraVideConfig.TabStop = false;
+        resources.ApplyResources(fraVideoConfig, "fraVideoConfig");
+        fraVideoConfig.Controls.Add(spcVideoConfig);
+        fraVideoConfig.Name = "fraVideoConfig";
+        fraVideoConfig.TabStop = false;
 
         //
         // spcVideoConfig
@@ -161,7 +161,7 @@ partial class VideoConfig
         // VideoConfig
         //
         AutoScaleMode = AutoScaleMode.None;
-        Controls.Add(fraVideConfig);
+        Controls.Add(fraVideoConfig);
         resources.ApplyResources(this, "$this");
         Name = "VideoConfig";
 
@@ -169,13 +169,13 @@ partial class VideoConfig
         spcVideoConfig.Panel2.ResumeLayout(false);
         ((System.ComponentModel.ISupportInitialize)spcVideoConfig).EndInit();
         spcVideoConfig.ResumeLayout(false);
-        fraVideConfig.ResumeLayout(false);
+        fraVideoConfig.ResumeLayout(false);
         ResumeLayout(false);
     }
 
     #endregion
 
-    private GroupBox fraVideConfig;
+    private GroupBox fraVideoConfig;
     private SplitContainer spcVideoConfig;
     private Label lblFormat;
     private ComboBox cmbFormat;
