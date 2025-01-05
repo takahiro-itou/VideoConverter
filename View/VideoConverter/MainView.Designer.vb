@@ -33,7 +33,7 @@ Partial Class MainView
         Me.mnuRunCount = New ToolStripMenuItem()
 
         Me.dlgOpenFile = New OpenFileDialog()
-        Me.wfcEncodeConfig = New WinFormsControl.EncodeConfig();
+        Me.wfcEncodeConfig = New WinFormsControl.EncodeConfig()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
@@ -90,8 +90,7 @@ Partial Class MainView
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = AutoScaleMode.None
-        Me.Controls.Add(Me.wfcVideoConfig)
-        Me.Controls.Add(Me.wfcAudioConfig)
+        Me.Controls.Add(Me.wfcEncodeConfig)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.mnuMain)
         Me.MainMenuStrip = Me.mnuMain
