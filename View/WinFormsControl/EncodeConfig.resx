@@ -95,22 +95,19 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbPreset.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="cmbPreset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
   <data name="cmbPreset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 4</value>
-  </data>
-  <data name="cmbPreset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>112, 8</value>
   </data>
   <data name="cmbPreset.Size" type="System.Drawing.Size, System.Drawing">
     <value>436, 20</value>
   </data>
   <data name="cmbPreset.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
 
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
@@ -135,7 +132,7 @@
     <value>0</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Preset:</value>
+    <value>Output:</value>
   </data>
   <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -151,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
    <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -163,10 +160,10 @@
     <value>96, 20</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Output:</value>
+    <value>Preset:</value>
   </data>
   <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -182,7 +179,7 @@
     <value>WinFormsControl.AudioConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wfcAudio.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="wfcAudio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -203,7 +200,7 @@
     <value>564, 104</value>
   </data>
   <data name="wfcAudio.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>5</value>
   </data>
 
   <data name="&gt;&gt;wfcVideo.Name" xml:space="preserve">
@@ -216,7 +213,7 @@
     <value>WinFormsControl.VideoConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wfcVideo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="wfcVideo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -237,7 +234,7 @@
     <value>564, 104</value>
   </data>
   <data name="wfcVideo.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
 
 </root>
