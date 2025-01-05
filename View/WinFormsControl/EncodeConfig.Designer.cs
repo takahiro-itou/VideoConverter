@@ -77,7 +77,7 @@ partial class EncodeConfig
     private Label Label1;
     private ComboBox cmbPreset;
     private VideoConfig wfcVideo;
-    private VideoConfig wfcAudio;
+    private AudioConfig wfcAudio;
 }
 
 }   //  End of namespace  WinFormsControl
