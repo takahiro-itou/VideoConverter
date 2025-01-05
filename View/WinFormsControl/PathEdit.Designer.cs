@@ -20,19 +20,57 @@ partial class PathEdit
     private void InitializeComponent()
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PathEdit));
+        cmbPath = new ComboBox();
+        btnRefer = new Button();
+        dlgFolder = new FolderBrowserDialog();
+        dlgOpen = new OpenFileDialog();
+        dlgSave = new SaveFileDialog();
         this.SuspendLayout();
 
         //
-        // PathEdit
+        //  cmbPath
         //
-        this.AutoScaleMode = AutoScaleMode.None;
+        resources.ApplyResources(cmbPath, "cmbPath");
+        cmbPath.FormattingEnabled = true;
+        cmbPath.Name = "cmbPath";
+        //
+        //  btnRefer
+        //
+        resources.ApplyResources(btnRefer, "btnRefer");
+        btnRefer.Name = "btnRefer";
+        btnRefer.UseVisualStyleBackColor = true;
 
+        //
+        //  dlgFolder
+        //
+        resources.ApplyResources(dlgFolder, "dlgFolder");
+        //
+        //  dlgOpen
+        //
+        resources.ApplyResources(dlgOpen, "dlgOpen");
+        //
+        //  dlgSave
+        //
+        resources.ApplyResources(dlgSave, "dlgSave");
+
+        //
+        //  PathEdit
+        //
+        this.AllowDrop = true;
+        this.AutoScaleMode = AutoScaleMode.None;
+        this.Controls.Add(cmbPath);
+        this.Controls.Add(btnRefer);
         resources.ApplyResources(this, "$this");
         this.Name = "PathEdit";
         this.ResumeLayout(false);
     }
 
     #endregion
+    private ComboBox cmbPath;
+    private Button btnRefer;
+    private FolderBrowserDialog dlgFolder;
+    private OpenFileDialog dlgOpen;
+    private SaveFileDialog dlgSave;
 }
 
 }   //  End of namespace  WinFormsControl

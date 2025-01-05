@@ -55,10 +55,10 @@ partial class OperationPanel
         //
         this.AutoScaleMode = AutoScaleMode.None;
         this.BorderStyle = BorderStyle.FixedSingle;
-        Controls.Add(btnAdd);
-        Controls.Add(btnRemove);
-        Controls.Add(btnClear);
-        Controls.Add(btnRun);
+        this.Controls.Add(btnAdd);
+        this.Controls.Add(btnRemove);
+        this.Controls.Add(btnClear);
+        this.Controls.Add(btnRun);
         resources.ApplyResources(this, "$this");
         this.Name = "OperationPanel";
         this.ResumeLayout(false);
