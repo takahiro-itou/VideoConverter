@@ -13,21 +13,21 @@ public partial class EncodeConfig : UserControl
     }
 
     //----------------------------------------------------------------
-    //    AudioConfig プロパティ
+    //    AudioConfigPanel  プロパティ
     //
     [Browsable(true)
     ]
-    public AudioConfig AudioConfig
+    public AudioConfig AudioConfigPanel
     {
         get { return this.wfcAudio; }
     }
 
     //----------------------------------------------------------------
-    //    VideoConfig プロパティ
+    //    VideoConfigPanel  プロパティ
     //
     [Browsable(true)
     ]
-    public VideoConfig VideoConfig
+    public VideoConfig VideoConfigPanel
     {
         get { return this.wfcVideo; }
     }
