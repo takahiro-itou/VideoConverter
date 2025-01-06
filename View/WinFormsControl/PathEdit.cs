@@ -83,7 +83,7 @@ public partial class PathEdit : UserControl
     /**   イベントハンドラを呼び出すメソッド
     **
     **/
-    protected virtual void OnPathCahnged(System.EventArgs e
+    protected virtual void OnPathCahnged(System.EventArgs e)
     {
         var eventHandler = PathChanged;
         if ( eventHandler != null ) {
