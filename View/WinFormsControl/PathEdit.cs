@@ -61,6 +61,18 @@ public partial class PathEdit : UserControl
     public event EventHandler<EventArgs>? PathChanged;
 
     //----------------------------------------------------------------
+    /**   イベントハンドラを呼び出すメソッド
+    **
+    **/
+    protected virtual void OnPathCahnged(System.EventArgs e
+    {
+        var eventHandler = PathChanged;
+        if ( eventHandler != null ) {
+            eventHandler(this, e);
+        }
+    }
+
+    //----------------------------------------------------------------
     /**   イベントハンドラ
     **
     **    「参照」ボタンのクリックイベント
