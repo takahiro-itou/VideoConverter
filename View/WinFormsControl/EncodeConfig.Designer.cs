@@ -90,7 +90,7 @@ partial class EncodeConfig
     #endregion
 
     private Label Label1;
-    private PathEidt wfcPath;
+    private PathEdit wfcPath;
     private Label Label2;
     private ComboBox cmbPreset;
     private VideoConfig wfcVideo;
