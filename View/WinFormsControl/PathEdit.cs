@@ -22,7 +22,7 @@ public partial class PathEdit : UserControl
         SaveFile = 2,   /**<  名前を付けて保存  **/
     };
 
-    private EDialogType m_dialogType    = DialogType.Folder;
+    private EDialogType m_dialogType    = EDialogType.Folder;
 
     //----------------------------------------------------------------
     //    DialogType  プロパティ
