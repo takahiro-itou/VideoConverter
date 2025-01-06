@@ -39,6 +39,7 @@ partial class PathEdit
         resources.ApplyResources(btnRefer, "btnRefer");
         btnRefer.Name = "btnRefer";
         btnRefer.UseVisualStyleBackColor = true;
+        btnRefer.Click += btnRefer_Click;
 
         //
         //  dlgFolder
