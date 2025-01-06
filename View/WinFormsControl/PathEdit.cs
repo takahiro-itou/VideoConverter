@@ -98,6 +98,9 @@ public partial class PathEdit : UserControl
     **/
     private void btnRefer_Click(object sender, System.EventArgs e)
     {
+        if ( this.m_dialogType == EDialogType.Folder ) {
+            openFolderDialog("Select Folder", cmbPath.Text);
+        }
     }
 
 }
