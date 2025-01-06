@@ -26,6 +26,25 @@ public partial class PathEdit : UserControl
     private EDialogType m_dialogType    = EDialogType.Folder;
 
     //----------------------------------------------------------------
+    /**   フォルダ検索ダイアログを起動する
+    **
+    **/
+    public boolean openFolderDialog(
+            System.String description,
+            System.String initialDir)
+    {
+        using (var dlg = new FolderBrowserDialog()) {
+            dlg.Description = description;
+            dlg.SelectedPath = initialDir;
+            if ( dlg.ShowDialog() != DialogResult.OK ) {
+                return  false;
+            }
+            cmbPath.Text = dlg.SelectedPath;
+        }
+        return  true;
+    }
+
+    //----------------------------------------------------------------
     /**   DialogType  プロパティ
     **
     **/
