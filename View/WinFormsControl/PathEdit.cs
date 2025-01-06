@@ -50,6 +50,15 @@ public partial class PathEdit : UserControl
         get { return  this.cmbPath; }
     }
 
+    //----------------------------------------------------------------
+    /**   イベントハンドラ
+    **
+    **    「参照」ボタンのクリックイベント
+    **/
+    private void btnRefer_Click(object sender, System.EventArgs e)
+    {
+    }
+
 }
 
 }   //  End of namespace  WinFormsControl
