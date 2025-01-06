@@ -77,7 +77,7 @@ public partial class PathEdit : UserControl
       , Description("パスが変更された時に発生するイベントです")
       , Category("プロパティ変更")
     ]
-    public event EventHandler<EventArgs>? PathChanged;
+    public event System.EventHandler<System.EventArgs>? PathChanged;
 
     //----------------------------------------------------------------
     /**   イベントハンドラを呼び出すメソッド
