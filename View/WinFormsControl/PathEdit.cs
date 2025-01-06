@@ -51,6 +51,16 @@ public partial class PathEdit : UserControl
     }
 
     //----------------------------------------------------------------
+    /**   PathChanged イベント
+    **
+    **/
+    [Browsable(true)
+      , Description("パスが変更された時に発生するイベントです")
+      , Category("プロパティ変更")
+    ]
+    public event EventHandler<EventArgs>? PathChanged;
+
+    //----------------------------------------------------------------
     /**   イベントハンドラ
     **
     **    「参照」ボタンのクリックイベント
