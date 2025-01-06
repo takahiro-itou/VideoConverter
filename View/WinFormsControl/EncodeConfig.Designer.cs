@@ -33,37 +33,52 @@ partial class EncodeConfig
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EncodeConfig));
 
         Label1 = new Label();
+        wfcPath = new PathEdit();
+        Label2 = new Label();
         cmbPreset = new ComboBox();
         wfcVideo = new VideoConfig();
         wfcAudio = new AudioConfig();
         this.SuspendLayout();
 
         //
-        // Label1
+        //  Label1
         //
         resources.ApplyResources(Label1, "Label1");
         Label1.Name = "Label1";
         //
-        // cmbPreset
+        //  wfcPath
+        //
+        resources.ApplyResources(wfcPath, "wfcPath");
+        wfcPath.Name = "wfcPath";
+        //
+        //  Label2
+        //
+        resources.ApplyResources(Label2, "Label2");
+        Label2.Name = "Label2";
+        //
+        //  cmbPreset
         //
         cmbPreset.FormattingEnabled = true;
         resources.ApplyResources(cmbPreset, "cmbPreset");
         cmbPreset.Name = "cmbPreset";
         //
-        // wfcVideo
+        //  wfcVideo
         //
         resources.ApplyResources(wfcVideo, "wfcVideo");
         wfcVideo.Name = "wfcVideo";
         //
-        // wfcAudio
+        //  wfcAudio
         //
         resources.ApplyResources(wfcAudio, "wfcAudio");
         wfcAudio.Name = "wfcAudio";
+
         //
-        // EncodeConfig
+        //  EncodeConfig
         //
         this.AutoScaleMode = AutoScaleMode.None;
         this.Controls.Add(Label1);
+        this.Controls.Add(wfcPath);
+        this.Controls.Add(Label2);
         this.Controls.Add(cmbPreset);
         this.Controls.Add(wfcVideo);
         this.Controls.Add(wfcAudio);
@@ -75,6 +90,8 @@ partial class EncodeConfig
     #endregion
 
     private Label Label1;
+    private PathEidt wfcPath;
+    private Label Label2;
     private ComboBox cmbPreset;
     private VideoConfig wfcVideo;
     private AudioConfig wfcAudio;
