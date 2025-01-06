@@ -12,6 +12,7 @@ public partial class PathEdit : UserControl
         InitializeComponent();
     }
 
+    //----------------------------------------------------------------
     /**
     **    参照ボタンを押した時に表示するダイアログの種類
     **/
@@ -25,8 +26,9 @@ public partial class PathEdit : UserControl
     private EDialogType m_dialogType    = EDialogType.Folder;
 
     //----------------------------------------------------------------
-    //    DialogType  プロパティ
-    //
+    /**   DialogType  プロパティ
+    **
+    **/
     [Browsable(true)
       , Description("ダイアログの種類を切り替える")
       , Category("動作")
@@ -35,6 +37,17 @@ public partial class PathEdit : UserControl
     {
         get { return  this.m_dialogType; }
         set { this.m_dialogType = value; }
+    }
+
+    //----------------------------------------------------------------
+    /**   PathEditBox プロパティ
+    **
+    **/
+    [Browsable(true)
+    ]
+    public ComboBox PathEditBox
+    {
+        get { return  this.cmbPath; }
     }
 
 }
