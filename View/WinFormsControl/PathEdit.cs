@@ -29,7 +29,7 @@ public partial class PathEdit : UserControl
     /**   フォルダ検索ダイアログを起動する
     **
     **/
-    public boolean openFolderDialog(
+    public bool openFolderDialog(
             System.String description,
             System.String initialDir)
     {
