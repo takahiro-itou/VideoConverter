@@ -79,31 +79,31 @@
     <value>160, 246</value>
   </data>
 
-  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnAdd.Name" xml:space="preserve">
     <value>btnAdd</value>
   </data>
-  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnAdd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnAdd.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="OV_btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="OV_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 16</value>
   </data>
-  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="OV_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
   </data>
-  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+  <data name="OV_btnAdd.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="btnAdd.Text" xml:space="preserve">
+  <data name="OV_btnAdd.Text" xml:space="preserve">
     <value>Add</value>
   </data>
 

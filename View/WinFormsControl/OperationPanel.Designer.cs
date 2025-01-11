@@ -27,31 +27,31 @@ partial class OperationPanel
         this.SuspendLayout();
 
         //
-        // btnAdd
+        //  btnAdd
         //
-        resources.ApplyResources(btnAdd, "btnAdd");
+        resources.ApplyResources(btnAdd, "OV_btnAdd");
         btnAdd.Name = "btnAdd";
         btnAdd.UseVisualStyleBackColor = true;
         //
-        // btnRemove
+        //  btnRemove
         //
         resources.ApplyResources(btnRemove, "btnRemove");
         btnRemove.Name = "btnRemove";
         btnRemove.UseVisualStyleBackColor = true;
         //
-        // btnClear
+        //  btnClear
         //
         resources.ApplyResources(btnClear, "btnClear");
         btnClear.Name = "btnClear";
         btnClear.UseVisualStyleBackColor = true;
         //
-        // btnRun
+        //  btnRun
         //
         resources.ApplyResources(btnRun, "btnRun");
         btnRun.Name = "btnRun";
         btnRun.UseVisualStyleBackColor = true;
         //
-        // OperationPanel
+        //  OperationPanel
         //
         this.AutoScaleMode = AutoScaleMode.None;
         this.BorderStyle = BorderStyle.FixedSingle;
