@@ -2,11 +2,11 @@
 name : MSBuild
 
 env :
-  SOLUTION_FILE_PATH : View
+  SOLUTION_FILE_PATH : View/Net60.sln
 
 jobs :
   build :
-    runs-on : windows-latest
+    runs-on : windows-2022
 
     strategy :
       fail-fast : false
@@ -32,7 +32,7 @@ jobs :
       - name : Build
         working-directory : ${{ github.workspace }}
         run : >
-          msbuild -restore -t:Rebuild -p:Platform=x64 -p:Configuration="${{ matrix.build-type }}" "${{ env.SOLUTION_FILE_PATH }}"
+          msbuild -restore -t:Rebuild -p:Platform=x64 -p:Configuration="${{ matrix.build-type }}" -p:TargetFrameworks=net6.0-windows "${{ env.SOLUTION_FILE_PATH }}"
         shell : pwsh
 
 on :
