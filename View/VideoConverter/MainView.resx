@@ -73,7 +73,7 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>432, 345</value>
+    <value>612, 560</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
@@ -194,69 +194,35 @@
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 
-  <data name="&gt;&gt;wfcAudioConfig.Name" xml:space="preserve">
-    <value>wfcAudioConfig</value>
+  <data name="&gt;&gt;wfcEncodeConfig.Name" xml:space="preserve">
+    <value>wfcEncodeConfig</value>
   </data>
-  <data name="&gt;&gt;wfcAudioConfig.Parent" xml:space="preserve">
+  <data name="&gt;&gt;wfcEncodeConfig.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;wfcAudioConfig.Type" xml:space="preserve">
-    <value>WinFormsControl.AudioConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;wfcEncodeConfig.Type" xml:space="preserve">
+    <value>WinFormsControl.EncodeConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;wfcAudioConfig.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="wfcAudioConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="wfcAudioConfig.Font" type="System.Drawing.Font, System.Drawing">
-    <value>ＭＳ ゴシック, 9pt</value>
-  </data>
-  <data name="wfcAudioConfig.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 122</value>
-  </data>
-  <data name="wfcAudioConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 104</value>
-  </data>
-  <data name="wfcAudioConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
-  </data>
-  <data name="wfcAudioConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
-  </data>
-  <data name="wfcAudioConfig.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;wfcEncodeConfig.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-
-  <data name="&gt;&gt;wfcVideoConfig.Name" xml:space="preserve">
-    <value>wfcVideoConfig</value>
-  </data>
-  <data name="&gt;&gt;wfcVideoConfig.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;wfcVideoConfig.Type" xml:space="preserve">
-    <value>WinFormsControl.VideoConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;wfcVideoConfig.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="wfcVideoConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="wfcEncodeConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="wfcVideoConfig.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="wfcEncodeConfig.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
   </data>
-  <data name="wfcVideoConfig.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, -1</value>
+  <data name="wfcEncodeConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
   </data>
-  <data name="wfcVideoConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 104</value>
+  <data name="wfcEncodeConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 280</value>
   </data>
-  <data name="wfcVideoConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
+  <data name="wfcEncodeConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 280</value>
   </data>
-  <data name="wfcVideoConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>564, 104</value>
+  <data name="wfcEncodeConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 280</value>
   </data>
 
   <data name="&gt;&gt;SampleControl1.Name" xml:space="preserve">
