@@ -216,13 +216,13 @@
     <value>16, 32</value>
   </data>
   <data name="wfcEncodeConfig.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 248</value>
+    <value>0, 280</value>
   </data>
   <data name="wfcEncodeConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>564, 248</value>
+    <value>566, 280</value>
   </data>
   <data name="wfcEncodeConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>564, 248</value>
+    <value>566, 280</value>
   </data>
 
   <data name="&gt;&gt;SampleControl1.Name" xml:space="preserve">
