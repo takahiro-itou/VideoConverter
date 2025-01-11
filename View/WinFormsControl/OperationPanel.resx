@@ -138,34 +138,34 @@
     <value>Clear</value>
   </data>
 
-  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnRemove.Name" xml:space="preserve">
     <value>btnRemove</value>
   </data>
-  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnRemove.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnRemove.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;OV_btnRemove.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="OV_btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="btnRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="OV_btnRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="OV_btnRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 64</value>
   </data>
-  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="OV_btnRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
   </data>
-  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+  <data name="OV_btnRemove.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="btnRemove.Text" xml:space="preserve">
+  <data name="OV_btnRemove.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
 
