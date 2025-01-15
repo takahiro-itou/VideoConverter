@@ -36,7 +36,8 @@ public partial class OperationPanel : UserControl
         set {
             if ( this.m_buttonOrientation == value ) { return; }
             this.m_buttonOrientation = value;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OperationPanel));
+            ComponentResourceManager resources
+                = new ComponentResourceManager(typeof(OperationPanel));
             this.SuspendLayout();
             if ( value == EOrientation.Vertical ) {
                 resources.ApplyResources(this, "$OV_this");
