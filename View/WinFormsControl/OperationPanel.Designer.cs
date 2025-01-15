@@ -29,6 +29,7 @@ partial class OperationPanel
         //
         //  btnAdd
         //
+        resources.ApplyResources(btnAdd, "btnAdd");
         resources.ApplyResources(btnAdd, "OV_btnAdd");
         btnAdd.Name = "btnAdd";
         btnAdd.UseVisualStyleBackColor = true;
