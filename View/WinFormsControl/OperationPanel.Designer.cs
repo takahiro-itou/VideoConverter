@@ -36,6 +36,7 @@ partial class OperationPanel
         //
         //  btnRemove
         //
+        resources.ApplyResources(btnRemove, "btnRemove");
         resources.ApplyResources(btnRemove, "OV_btnRemove");
         btnRemove.Name = "btnRemove";
         btnRemove.UseVisualStyleBackColor = true;
