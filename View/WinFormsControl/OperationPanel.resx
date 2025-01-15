@@ -75,10 +75,14 @@
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>ＭＳ ゴシック, 9pt</value>
   </data>
-  <data name="$OH_this.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>566, 48</value>
   </data>
-  <data name="$OV_this.Size" type="System.Drawing.Size, System.Drawing">
+
+  <data name="OH_$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
+  <data name="OV_$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 246</value>
   </data>
 

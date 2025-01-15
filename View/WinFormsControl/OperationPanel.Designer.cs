@@ -59,8 +59,8 @@ partial class OperationPanel
         this.Controls.Add(btnRemove);
         this.Controls.Add(btnClear);
         this.Controls.Add(btnRun);
-        resources.ApplyResources(this, "$OV_this");
         resources.ApplyResources(this, "$this");
+        resources.ApplyResources(this, "OV_$this");
         this.Name = "OperationPanel";
         this.ResumeLayout(false);
     }
