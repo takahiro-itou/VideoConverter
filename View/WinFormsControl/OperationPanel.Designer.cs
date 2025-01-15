@@ -50,6 +50,7 @@ partial class OperationPanel
         //
         //  btnRun
         //
+        resources.ApplyResources(btnRun, "btnRun");
         resources.ApplyResources(btnRun, "OV_btnRun");
         btnRun.Name = "btnRun";
         btnRun.UseVisualStyleBackColor = true;
