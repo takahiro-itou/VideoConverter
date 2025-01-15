@@ -127,35 +127,41 @@
     <value>128, 32</value>
   </data>
 
-  <data name="&gt;&gt;OH_btnClear.Name" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
     <value>btnClear</value>
   </data>
-  <data name="&gt;&gt;OH_btnClear.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;OH_btnClear.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;OH_btnClear.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="OH_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="OH_btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 112</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 8</value>
   </data>
   <data name="OH_btnClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
-  </data>
-  <data name="OH_btnClear.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="OH_btnClear.Text" xml:space="preserve">
-    <value>Clear</value>
   </data>
 
   <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
@@ -227,35 +233,42 @@
     <value>Run</value>
   </data>
 
-  <data name="&gt;&gt;OV_btnClear.Name" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
     <value>btnClear</value>
   </data>
-  <data name="&gt;&gt;OV_btnClear.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;OV_btnClear.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;OV_btnClear.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="OV_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="OV_btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 112</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+
   <data name="OV_btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 112</value>
   </data>
   <data name="OV_btnClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
-  </data>
-  <data name="OV_btnClear.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="OV_btnClear.Text" xml:space="preserve">
-    <value>Clear</value>
   </data>
 
   <data name="OV_btnRemove.Location" type="System.Drawing.Point, System.Drawing">

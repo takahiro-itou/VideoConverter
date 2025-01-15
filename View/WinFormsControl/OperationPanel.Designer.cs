@@ -43,6 +43,7 @@ partial class OperationPanel
         //
         //  btnClear
         //
+        resources.ApplyResources(btnClear, "btnClear");
         resources.ApplyResources(btnClear, "OV_btnClear");
         btnClear.Name = "btnClear";
         btnClear.UseVisualStyleBackColor = true;
