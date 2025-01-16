@@ -79,13 +79,6 @@
     <value>566, 48</value>
   </data>
 
-  <data name="OH_$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>566, 48</value>
-  </data>
-  <data name="OV_$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 246</value>
-  </data>
-
   <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
     <value>btnAdd</value>
   </data>
@@ -112,19 +105,6 @@
   </data>
   <data name="btnAdd.Text" xml:space="preserve">
     <value>Add</value>
-  </data>
-
-  <data name="OH_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
-  </data>
-  <data name="OH_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 32</value>
-  </data>
-  <data name="OV_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="OV_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 32</value>
   </data>
 
   <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
@@ -158,13 +138,6 @@
     <value>Clear</value>
   </data>
 
-  <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 8</value>
-  </data>
-  <data name="OH_btnClear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 32</value>
-  </data>
-
   <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
     <value>btnRemove</value>
   </data>
@@ -194,13 +167,6 @@
   </data>
   <data name="btnRemove.Text" xml:space="preserve">
     <value>Remove</value>
-  </data>
-
-  <data name="OH_btnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>148, 8</value>
-  </data>
-  <data name="OH_btnRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 32</value>
   </data>
 
   <data name="&gt;&gt;btnRun.Name" xml:space="preserve">
@@ -234,10 +200,46 @@
     <value>Run</value>
   </data>
 
+  <data name="OH_$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
+
+  <data name="OH_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="OH_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 8</value>
+  </data>
+  <data name="OH_btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OH_btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 8</value>
+  </data>
+  <data name="OH_btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
   <data name="OH_btnRun.Location" type="System.Drawing.Point, System.Drawing">
     <value>430, 8</value>
   </data>
   <data name="OH_btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OV_$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 246</value>
+  </data>
+
+  <data name="OV_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="OV_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
   </data>
 
