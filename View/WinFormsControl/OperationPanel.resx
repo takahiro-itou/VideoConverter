@@ -120,13 +120,13 @@
     <value>2</value>
   </data>
   <data name="btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 8</value>
+    <value>288, 8</value>
   </data>
   <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
@@ -204,6 +204,9 @@
     <value>566, 48</value>
   </data>
 
+  <data name="OH_btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
   <data name="OH_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
   </data>
@@ -236,6 +239,9 @@
     <value>160, 246</value>
   </data>
 
+  <data name="OV_btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="OV_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 16</value>
   </data>
