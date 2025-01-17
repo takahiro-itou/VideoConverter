@@ -44,7 +44,8 @@ public partial class OperationPanel : UserControl
             } else {
                 resources.ApplyResources(this, "$OH_this");
             }
-            this.ResumeLayout(true);
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
     }
 
