@@ -40,12 +40,20 @@ public partial class OperationPanel : UserControl
                 = new ComponentResourceManager(typeof(OperationPanel));
             this.SuspendLayout();
             if ( value == EOrientation.Vertical ) {
-                resources.ApplyResources(this, "$OV_this");
+                resources.ApplyResources(this.btnAdd, "OV_btnAdd");
+                resources.ApplyResources(this.btnRemove, "OV_btnRemove");
+                resources.ApplyResources(this.btnClear, "OV_btnClear");
+                resources.ApplyResources(this.btnRun, "OV_btnRun");
+                resources.ApplyResources(this, "OV_$this");
             } else {
-                resources.ApplyResources(this, "$OH_this");
+                resources.ApplyResources(this.btnAdd, "OH_btnAdd");
+                resources.ApplyResources(this.btnRemove, "OH_btnRemove");
+                resources.ApplyResources(this.btnClear, "OH_btnClear");
+                resources.ApplyResources(this.btnRun, "OH_btnRun");
+                resources.ApplyResources(this, "OH_$this");
             }
             this.ResumeLayout(false);
-            this.PerformLayout();
+            this.PerformLayout  ();
         }
     }
 
