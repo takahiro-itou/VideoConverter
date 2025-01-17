@@ -200,6 +200,12 @@
     <value>Run</value>
   </data>
 
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 48</value>
+  </data>
+  <data name="OH_$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
   <data name="OH_$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>566, 48</value>
   </data>
@@ -244,6 +250,9 @@
     <value>128, 32</value>
   </data>
 
+  <data name="OH_$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>160, 246</value>
+  </data>
   <data name="OV_$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 246</value>
   </data>
