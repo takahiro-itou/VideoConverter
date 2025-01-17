@@ -92,7 +92,7 @@
     <value>0</value>
   </data>
   <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
@@ -214,6 +214,9 @@
     <value>128, 32</value>
   </data>
 
+  <data name="OH_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
   <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>288, 8</value>
   </data>
@@ -249,6 +252,9 @@
     <value>128, 32</value>
   </data>
 
+  <data name="OV_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="OV_btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 112</value>
   </data>
