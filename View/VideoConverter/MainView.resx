@@ -247,13 +247,13 @@
     <value>16, 320</value>
   </data>
   <data name="wfcOperation.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+    <value>0, 48</value>
   </data>
   <data name="wfcOperation.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+    <value>566, 48</value>
   </data>
   <data name="wfcOperation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 246</value>
+    <value>566, 48</value>
   </data>
 
   <data name="&gt;&gt;SampleControl1.Name" xml:space="preserve">
