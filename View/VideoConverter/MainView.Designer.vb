@@ -34,6 +34,7 @@ Partial Class MainView
 
         Me.dlgOpenFile = New OpenFileDialog()
         Me.wfcEncodeConfig = New WinFormsControl.EncodeConfig()
+        Me.wfcOperation = New WinFormsControl.OperationPanel()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
@@ -77,6 +78,13 @@ Partial Class MainView
         '
         resources.ApplyResources(Me.wfcEncodeConfig, "wfcEncodeConfig")
         Me.wfcEncodeConfig.Name = "wfcEncodeConfig"
+
+        '
+        ' wfcOperation
+        '
+        resources.ApplyResources(Me.wfcOperation, "wfcOperation")
+        Me.wfcEncodeConfig.Name = "wfcOperation"
+
         '
         ' DataGridView1
         '
@@ -91,6 +99,7 @@ Partial Class MainView
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = AutoScaleMode.None
         Me.Controls.Add(Me.wfcEncodeConfig)
+        Me.Controls.Add(Me.wfcOperation)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.mnuMain)
         Me.MainMenuStrip = Me.mnuMain
@@ -111,5 +120,6 @@ Partial Class MainView
     Friend WithEvents mnuRunCount As ToolStripMenuItem
     Friend WithEvents dlgOpenFile As OpenFileDialog
     Friend WithEvents wfcEncodeConfig As WinFormsControl.EncodeConfig
+    Friend WithEvents wfcOperation As WinFormsControl.OperationPanel
 
 End Class

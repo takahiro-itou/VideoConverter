@@ -204,7 +204,7 @@
     <value>WinFormsControl.EncodeConfig, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wfcEncodeConfig.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="wfcEncodeConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -223,6 +223,37 @@
   </data>
   <data name="wfcEncodeConfig.Size" type="System.Drawing.Size, System.Drawing">
     <value>566, 280</value>
+  </data>
+
+  <data name="&gt;&gt;wfcOperation.Name" xml:space="preserve">
+    <value>wfcOperation</value>
+  </data>
+  <data name="&gt;&gt;wfcOperation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wfcOperation.Type" xml:space="preserve">
+    <value>WinFormsControl.OperationPanel, WinFormsControl, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;wfcOperation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="wfcOperation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="wfcOperation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ ゴシック, 9pt</value>
+  </data>
+  <data name="wfcOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 320</value>
+  </data>
+  <data name="wfcOperation.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 48</value>
+  </data>
+  <data name="wfcOperation.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
+  <data name="wfcOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
   </data>
 
   <data name="&gt;&gt;SampleControl1.Name" xml:space="preserve">

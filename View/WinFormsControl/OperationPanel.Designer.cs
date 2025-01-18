@@ -27,31 +27,35 @@ partial class OperationPanel
         this.SuspendLayout();
 
         //
-        // btnAdd
+        //  btnAdd
         //
         resources.ApplyResources(btnAdd, "btnAdd");
+        resources.ApplyResources(btnAdd, "OH_btnAdd");
         btnAdd.Name = "btnAdd";
         btnAdd.UseVisualStyleBackColor = true;
         //
-        // btnRemove
+        //  btnRemove
         //
         resources.ApplyResources(btnRemove, "btnRemove");
+        resources.ApplyResources(btnRemove, "OH_btnRemove");
         btnRemove.Name = "btnRemove";
         btnRemove.UseVisualStyleBackColor = true;
         //
-        // btnClear
+        //  btnClear
         //
         resources.ApplyResources(btnClear, "btnClear");
+        resources.ApplyResources(btnClear, "OH_btnClear");
         btnClear.Name = "btnClear";
         btnClear.UseVisualStyleBackColor = true;
         //
-        // btnRun
+        //  btnRun
         //
         resources.ApplyResources(btnRun, "btnRun");
+        resources.ApplyResources(btnRun, "OH_btnRun");
         btnRun.Name = "btnRun";
         btnRun.UseVisualStyleBackColor = true;
         //
-        // OperationPanel
+        //  OperationPanel
         //
         this.AutoScaleMode = AutoScaleMode.None;
         this.BorderStyle = BorderStyle.FixedSingle;
@@ -60,6 +64,7 @@ partial class OperationPanel
         this.Controls.Add(btnClear);
         this.Controls.Add(btnRun);
         resources.ApplyResources(this, "$this");
+        resources.ApplyResources(this, "OH_$this");
         this.Name = "OperationPanel";
         this.ResumeLayout(false);
     }
