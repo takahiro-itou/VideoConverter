@@ -82,25 +82,25 @@
     <value>Main View</value>
   </data>
 
-  <data name="&gt;&gt;DataGridView1.Name" xml:space="preserve">
-    <value>DataGridView1</value>
+  <data name="&gt;&gt;dgvFileList.Name" xml:space="preserve">
+    <value>dgvFileList</value>
   </data>
-  <data name="&gt;&gt;DataGridView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dgvFileList.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;DataGridView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;dgvFileList.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;DataGridView1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;dgvFileList.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="dgvFileList.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 168</value>
   </data>
-  <data name="DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="dgvFileList.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 150</value>
   </data>
-  <data name="DataGridView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="dgvFileList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
 
