@@ -15,7 +15,7 @@
 /**
 **      An Implementation of OperationPanel class.
 **
-**      @file       OperationPanel.cs
+**      @file       OperationPanel.Designer.cs
 **/
 
 using System.ComponentModel;
