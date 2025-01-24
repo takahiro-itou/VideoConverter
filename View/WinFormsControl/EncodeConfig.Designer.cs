@@ -1,18 +1,37 @@
-﻿
+﻿//  -*-  coding: utf-8-with-signature;  mode: c++  -*-  //
+/*************************************************************************
+**                                                                      **
+**                      ---  Video Converter.  ---                      **
+**                                                                      **
+**          Copyright (C), 2024-2025, Takahiro Itou                     **
+**          All Rights Reserved.                                        **
+**                                                                      **
+**          License: (See COPYING or LICENSE files)                     **
+**          GNU Affero General Public License (AGPL) version 3,         **
+**          or (at your option) any later version.                      **
+**                                                                      **
+*************************************************************************/
+
+/**
+**      An Implementation of EncodeConfig class.
+**
+**      @file       EncodeConfig.Designer.cs
+**/
+
+using System.ComponentModel;
+
 namespace WinFormsControl
 {
 
+//========================================================================
+//
+//    EncodeConfig  class.
+//
+
 partial class EncodeConfig
 {
-    /// <summary>
-    /// Required designer variable.
-    /// </summary>
     private System.ComponentModel.IContainer components = null;
 
-    /// <summary>
-    /// Clean up any resources being used.
-    /// </summary>
-    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
     protected override void Dispose(bool disposing)
     {
         if (disposing && (components != null))
@@ -24,13 +43,10 @@ partial class EncodeConfig
 
     #region Component Designer generated code
 
-    /// <summary>
-    /// Required method for Designer support - do not modify
-    /// the contents of this method with the code editor.
-    /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EncodeConfig));
+        ComponentResourceManager resources =
+                new ComponentResourceManager(typeof(EncodeConfig));
 
         Label1 = new Label();
         wfcPath = new PathEdit();
