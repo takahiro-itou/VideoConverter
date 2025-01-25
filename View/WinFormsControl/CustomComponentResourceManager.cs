@@ -28,4 +28,14 @@ namespace WinFormsControl
 //    CustomComponentResourceManager  class.
 //
 
+public class CustomComponentResourceManager : ComponentResourceManager
+{
+    public CustomComponentResourceManager(Type t, string resourceName)
+        : base(t)
+    {
+        this.BaseNameField = resourceName;
+    }
+
+}
+
 }
