@@ -34,7 +34,7 @@ public class CustomComponentResourceManager
     public CustomComponentResourceManager(System.Type t, string resourceName)
         : base(t)
     {
-        this.BaseNameField = resourceName;
+        //  this.BaseName = resourceName;
     }
 
 }
