@@ -45,7 +45,7 @@ partial class OperationPanel
 
     private void InitializeComponent()
     {
-        ComponentResourceManager resources =
+        System.ComponentModel.ComponentResourceManager resources =
                 new ComponentResourceManager(typeof(OperationPanel));
         btnAdd = new Button();
         btnRemove = new Button();

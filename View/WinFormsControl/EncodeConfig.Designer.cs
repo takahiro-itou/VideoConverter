@@ -45,7 +45,7 @@ partial class EncodeConfig
 
     private void InitializeComponent()
     {
-        ComponentResourceManager resources =
+        System.ComponentModel.ComponentResourceManager resources =
                 new ComponentResourceManager(typeof(EncodeConfig));
 
         Label1 = new Label();
