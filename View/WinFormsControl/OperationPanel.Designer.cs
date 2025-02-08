@@ -1,6 +1,32 @@
-﻿
+﻿//  -*-  coding: utf-8-with-signature;  mode: c++  -*-  //
+/*************************************************************************
+**                                                                      **
+**                      ---  Video Converter.  ---                      **
+**                                                                      **
+**          Copyright (C), 2024-2025, Takahiro Itou                     **
+**          All Rights Reserved.                                        **
+**                                                                      **
+**          License: (See COPYING or LICENSE files)                     **
+**          GNU Affero General Public License (AGPL) version 3,         **
+**          or (at your option) any later version.                      **
+**                                                                      **
+*************************************************************************/
+
+/**
+**      An Implementation of OperationPanel class.
+**
+**      @file       OperationPanel.Designer.cs
+**/
+
+using System.ComponentModel;
+
 namespace WinFormsControl
 {
+
+//========================================================================
+//
+//    OperationPanel  class.
+//
 
 partial class OperationPanel
 {
@@ -19,7 +45,8 @@ partial class OperationPanel
 
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OperationPanel));
+        System.ComponentModel.ComponentResourceManager resources =
+                new ComponentResourceManager(typeof(OperationPanel));
         btnAdd = new Button();
         btnRemove = new Button();
         btnClear = new Button();

@@ -1,18 +1,37 @@
-﻿
+﻿//  -*-  coding: utf-8-with-signature;  mode: c++  -*-  //
+/*************************************************************************
+**                                                                      **
+**                      ---  Video Converter.  ---                      **
+**                                                                      **
+**          Copyright (C), 2024-2025, Takahiro Itou                     **
+**          All Rights Reserved.                                        **
+**                                                                      **
+**          License: (See COPYING or LICENSE files)                     **
+**          GNU Affero General Public License (AGPL) version 3,         **
+**          or (at your option) any later version.                      **
+**                                                                      **
+*************************************************************************/
+
+/**
+**      An Implementation of VideoConfig class.
+**
+**      @file       VideoConfig.Designer.cs
+**/
+
+using System.ComponentModel;
+
 namespace WinFormsControl
 {
 
+//========================================================================
+//
+//    VideoConfig  class.
+//
+
 partial class VideoConfig
 {
-    /// <summary>
-    /// Required designer variable.
-    /// </summary>
     private System.ComponentModel.IContainer components = null;
 
-    /// <summary>
-    /// Clean up any resources being used.
-    /// </summary>
-    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
     protected override void Dispose(bool disposing)
     {
         if (disposing && (components != null))
@@ -24,13 +43,10 @@ partial class VideoConfig
 
     #region Component Designer generated code
 
-    /// <summary>
-    /// Required method for Designer support - do not modify
-    /// the contents of this method with the code editor.
-    /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VideoConfig));
+        System.ComponentModel.ComponentResourceManager resources =
+                new ComponentResourceManager(typeof(VideoConfig));
 
         fraVideoConfig = new GroupBox();
         spcVideoConfig = new SplitContainer();
@@ -55,7 +71,7 @@ partial class VideoConfig
         this.SuspendLayout();
 
         //
-        // fraVideoConfig
+        //  fraVideoConfig
         //
         resources.ApplyResources(fraVideoConfig, "fraVideoConfig");
         fraVideoConfig.Controls.Add(spcVideoConfig);
@@ -63,12 +79,12 @@ partial class VideoConfig
         fraVideoConfig.TabStop = false;
 
         //
-        // spcVideoConfig
+        //  spcVideoConfig
         //
         resources.ApplyResources(spcVideoConfig, "spcVideoConfig");
         spcVideoConfig.Name = "spcVideoConfig";
         //
-        // spcVideoConfig.Panel1
+        //  spcVideoConfig.Panel1
         //
         spcVideoConfig.Panel1.Controls.Add(lblFormat);
         spcVideoConfig.Panel1.Controls.Add(cmbFormat);
@@ -77,7 +93,7 @@ partial class VideoConfig
         spcVideoConfig.Panel1.Controls.Add(lblAspect);
         spcVideoConfig.Panel1.Controls.Add(cmbAspect);
         //
-        // spcVideoConfig.Panel2
+        //  spcVideoConfig.Panel2
         //
         spcVideoConfig.Panel2.Controls.Add(lblCodec);
         spcVideoConfig.Panel2.Controls.Add(cmbCodec);
@@ -87,47 +103,47 @@ partial class VideoConfig
         spcVideoConfig.Panel2.Controls.Add(cmbBitRate);
 
         //
-        // cmbFormat
+        //  lblFormat
+        //
+        resources.ApplyResources(lblFormat, "lblFormat");
+        lblFormat.Name = "lblFormat";
+        //
+        //  cmbFormat
         //
         resources.ApplyResources(cmbFormat, "cmbFormat");
         cmbFormat.DropDownStyle = ComboBoxStyle.DropDownList;
         cmbFormat.FormattingEnabled = true;
         cmbFormat.Name = "cmbFormat";
         //
-        // lblFormat
-        //
-        resources.ApplyResources(lblFormat, "lblFormat");
-        lblFormat.Name = "lblFormat";
-        //
-        // lblSize
+        //  lblSize
         //
         resources.ApplyResources(lblSize, "lblSize");
         lblSize.Name = "lblSize";
         //
-        // cmbSize
+        //  cmbSize
         //
         resources.ApplyResources(cmbSize, "cmbSize");
         cmbSize.FormattingEnabled = true;
         cmbSize.Name = "cmbSize";
         //
-        // lblAspect
+        //  lblAspect
         //
         resources.ApplyResources(lblAspect, "lblAspect");
         lblAspect.Name = "lblAspect";
         //
-        // cmbAspect
+        //  cmbAspect
         //
         resources.ApplyResources(cmbAspect, "cmbAspect");
         cmbAspect.FormattingEnabled = true;
         cmbAspect.Name = "cmbAspect";
 
         //
-        // lblCodec
+        //  lblCodec
         //
         resources.ApplyResources(lblCodec, "lblCodec");
         lblCodec.Name = "lblCodec";
         //
-        // cmbCodec
+        //  cmbCodec
         //
         resources.ApplyResources(cmbCodec, "cmbCodec");
         cmbCodec.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -135,30 +151,30 @@ partial class VideoConfig
         cmbCodec.Name = "cmbCodec";
 
         //
-        // lblFrameRate
+        //  lblFrameRate
         //
         resources.ApplyResources(lblFrameRate, "lblFrameRate");
         lblFrameRate.Name = "lblFrameRate";
         //
-        // cmbFrameRate
+        //  cmbFrameRate
         //
         resources.ApplyResources(cmbFrameRate, "cmbFrameRate");
         cmbFrameRate.FormattingEnabled = true;
         cmbFrameRate.Name = "cmbFrameRate";
         //
-        // lblBitRate
+        //  lblBitRate
         //
         resources.ApplyResources(lblBitRate, "lblBitRate");
         lblBitRate.Name = "lblBitRate";
         //
-        // cmbBitRate
+        //  cmbBitRate
         //
         resources.ApplyResources(cmbBitRate, "cmbBitRate");
         cmbBitRate.FormattingEnabled = true;
         cmbBitRate.Name = "cmbBitRate";
 
         //
-        // VideoConfig
+        //  VideoConfig
         //
         AutoScaleMode = AutoScaleMode.None;
         Controls.Add(fraVideoConfig);

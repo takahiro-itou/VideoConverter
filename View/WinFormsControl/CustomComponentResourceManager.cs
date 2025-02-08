@@ -13,22 +13,30 @@
 *************************************************************************/
 
 /**
-**      An Implementation of VideoConfig class.
+**      An Implementation of CustomComponentResourceManager class.
 **
-**      @file       VideoConfig.cs
+**      @file       CustomComponentResourceManager.cs
 **/
 
-using System.Windows.Forms;
+using System.ComponentModel;
 
 namespace WinFormsControl
 {
 
-public partial class VideoConfig : UserControl
+//========================================================================
+//
+//    CustomComponentResourceManager  class.
+//
+
+public class CustomComponentResourceManager
+    : System.ComponentModel.ComponentResourceManager
 {
-    public VideoConfig()
+    public CustomComponentResourceManager(System.Type t, string resourceName)
+        : base(t)
     {
-        InitializeComponent();
+        //  this.BaseName = resourceName;
     }
+
 }
 
-}   //  End of namespace  WinFormsControl
+}
