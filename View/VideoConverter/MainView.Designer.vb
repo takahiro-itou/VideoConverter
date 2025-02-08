@@ -25,7 +25,7 @@ Partial Class MainView
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainView))
 
-        Me.DataGridView1 = New DataGridView()
+        Me.dgvFileList = New DataGridView()
         Me.mnuMain = New MenuStrip()
         Me.mnuFile = New ToolStripMenuItem()
         Me.mnuFileExit = New ToolStripMenuItem()
@@ -34,7 +34,8 @@ Partial Class MainView
 
         Me.dlgOpenFile = New OpenFileDialog()
         Me.wfcEncodeConfig = New WinFormsControl.EncodeConfig()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.wfcOperation = New WinFormsControl.OperationPanel()
+        CType(Me.dgvFileList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuMain.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -77,13 +78,20 @@ Partial Class MainView
         '
         resources.ApplyResources(Me.wfcEncodeConfig, "wfcEncodeConfig")
         Me.wfcEncodeConfig.Name = "wfcEncodeConfig"
+
         '
-        ' DataGridView1
+        ' wfcOperation
         '
-        resources.ApplyResources(Me.DataGridView1, "DataGridView1")
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 25
+        resources.ApplyResources(Me.wfcOperation, "wfcOperation")
+        Me.wfcEncodeConfig.Name = "wfcOperation"
+
+        '
+        ' dgvFileList
+        '
+        resources.ApplyResources(Me.dgvFileList, "dgvFileList")
+        Me.dgvFileList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvFileList.Name = "dgvFileList"
+        Me.dgvFileList.RowTemplate.Height = 25
 
         '
         ' MainView
@@ -91,11 +99,12 @@ Partial Class MainView
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = AutoScaleMode.None
         Me.Controls.Add(Me.wfcEncodeConfig)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.wfcOperation)
+        Me.Controls.Add(Me.dgvFileList)
         Me.Controls.Add(Me.mnuMain)
         Me.MainMenuStrip = Me.mnuMain
         Me.Name = "MainView"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvFileList, System.ComponentModel.ISupportInitialize).EndInit()
         Me.mnuMain.ResumeLayout(False)
         Me.mnuMain.PerformLayout()
         Me.ResumeLayout(False)
@@ -103,7 +112,7 @@ Partial Class MainView
 
     End Sub
 
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents dgvFileList As DataGridView
     Friend WithEvents mnuMain As MenuStrip
     Friend WithEvents mnuFile As ToolStripMenuItem
     Friend WithEvents mnuFileExit As ToolStripMenuItem
@@ -111,5 +120,6 @@ Partial Class MainView
     Friend WithEvents mnuRunCount As ToolStripMenuItem
     Friend WithEvents dlgOpenFile As OpenFileDialog
     Friend WithEvents wfcEncodeConfig As WinFormsControl.EncodeConfig
+    Friend WithEvents wfcOperation As WinFormsControl.OperationPanel
 
 End Class

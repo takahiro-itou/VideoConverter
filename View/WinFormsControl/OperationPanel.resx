@@ -76,7 +76,7 @@
     <value>ＭＳ ゴシック, 9pt</value>
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 246</value>
+    <value>566, 48</value>
   </data>
 
   <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
@@ -92,10 +92,10 @@
     <value>0</value>
   </data>
   <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
+    <value>8, 8</value>
   </data>
   <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
@@ -120,13 +120,13 @@
     <value>2</value>
   </data>
   <data name="btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 112</value>
+    <value>288, 8</value>
   </data>
   <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
@@ -151,13 +151,13 @@
     <value>1</value>
   </data>
   <data name="btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="btnRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 64</value>
+    <value>148, 8</value>
   </data>
   <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
@@ -182,13 +182,13 @@
     <value>3</value>
   </data>
   <data name="btnRun.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+    <value>Top, Bottom, Right</value>
   </data>
   <data name="btnRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnRun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 196</value>
+    <value>430, 8</value>
   </data>
   <data name="btnRun.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 32</value>
@@ -198,6 +198,106 @@
   </data>
   <data name="btnRun.Text" xml:space="preserve">
     <value>Run</value>
+  </data>
+
+  <data name="OH_$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 48</value>
+  </data>
+  <data name="OH_$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
+  <data name="OH_$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 48</value>
+  </data>
+
+  <data name="OH_btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="OH_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="OH_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OH_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="OH_btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 8</value>
+  </data>
+  <data name="OH_btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OH_btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="OH_btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 8</value>
+  </data>
+  <data name="OH_btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OH_btnRun.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="OH_btnRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 8</value>
+  </data>
+  <data name="OH_btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OV_$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="OV_$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>160, 246</value>
+  </data>
+  <data name="OV_$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 246</value>
+  </data>
+
+  <data name="OV_btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OV_btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="OV_btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OV_btnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OV_btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 112</value>
+  </data>
+  <data name="OV_btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OV_btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OV_btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 64</value>
+  </data>
+  <data name="OV_btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
+  </data>
+
+  <data name="OV_btnRun.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="OV_btnRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 196</value>
+  </data>
+  <data name="OV_btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 32</value>
   </data>
 
 </root>

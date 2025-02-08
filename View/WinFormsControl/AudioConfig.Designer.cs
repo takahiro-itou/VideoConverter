@@ -1,18 +1,35 @@
-﻿
+﻿//  -*-  coding: utf-8-with-signature;  mode: c++  -*-  //
+/*************************************************************************
+**                                                                      **
+**                      ---  Video Converter.  ---                      **
+**                                                                      **
+**          Copyright (C), 2024-2025, Takahiro Itou                     **
+**          All Rights Reserved.                                        **
+**                                                                      **
+**          License: (See COPYING or LICENSE files)                     **
+**          GNU Affero General Public License (AGPL) version 3,         **
+**          or (at your option) any later version.                      **
+**                                                                      **
+*************************************************************************/
+
+/**
+**      An Implementation of AudioConfig class.
+**
+**      @file       AudioConfig.Designer.cs
+**/
+
 namespace WinFormsControl
 {
 
+//========================================================================
+//
+//    AudioConfig  class.
+//
+
 partial class AudioConfig
 {
-    /// <summary>
-    /// Required designer variable.
-    /// </summary>
     private System.ComponentModel.IContainer components = null;
 
-    /// <summary>
-    /// Clean up any resources being used.
-    /// </summary>
-    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
     protected override void Dispose(bool disposing)
     {
         if (disposing && (components != null))
@@ -24,13 +41,10 @@ partial class AudioConfig
 
     #region Component Designer generated code
 
-    /// <summary>
-    /// Required method for Designer support - do not modify
-    /// the contents of this method with the code editor.
-    /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AudioConfig));
+        System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(AudioConfig));
 
         fraAudioConfig = new GroupBox();
         spcAudioConfig = new SplitContainer();
@@ -55,19 +69,19 @@ partial class AudioConfig
         this.SuspendLayout();
 
         //
-        // fraAudioConfig
+        //  fraAudioConfig
         //
         resources.ApplyResources(fraAudioConfig, "fraAudioConfig");
         fraAudioConfig.Controls.Add(spcAudioConfig);
         fraAudioConfig.Name = "fraAudioConfig";
         fraAudioConfig.TabStop = false;
         //
-        // spcAudioConfig
+        //  spcAudioConfig
         //
         resources.ApplyResources(spcAudioConfig, "spcAudioConfig");
         spcAudioConfig.Name = "spcAudioConfig";
         //
-        // spcAudioConfig.Panel1
+        //  spcAudioConfig.Panel1
         //
         spcAudioConfig.Panel1.Controls.Add(lblChannel);
         spcAudioConfig.Panel1.Controls.Add(cmbChannels);
@@ -76,7 +90,7 @@ partial class AudioConfig
         spcAudioConfig.Panel1.Controls.Add(lblDelay);
         spcAudioConfig.Panel1.Controls.Add(cmbAudioDelay);
         //
-        // spcAudioConfig.Panel2
+        //  spcAudioConfig.Panel2
         //
         spcAudioConfig.Panel2.Controls.Add(lblCodec);
         spcAudioConfig.Panel2.Controls.Add(cmbCodec);
@@ -86,77 +100,77 @@ partial class AudioConfig
         spcAudioConfig.Panel2.Controls.Add(cmbBitRate);
 
         //
-        // lblChannel
+        //  lblChannel
         //
         resources.ApplyResources(lblChannel, "lblChannel");
         lblChannel.Name = "lblChannel";
         //
-        // cmbChannels
+        //  cmbChannels
         //
         resources.ApplyResources(cmbChannels, "cmbChannels");
         cmbChannels.DropDownStyle = ComboBoxStyle.DropDownList;
         cmbChannels.FormattingEnabled = true;
         cmbChannels.Name = "cmbChannels";
         //
-        // lblVolume
+        //  lblVolume
         //
         resources.ApplyResources(lblVolume, "lblVolume");
         lblVolume.Name = "lblVolume";
         //
-        // cmbVolume
+        //  cmbVolume
         //
         resources.ApplyResources(cmbVolume, "cmbVolume");
         cmbVolume.FormattingEnabled = true;
         cmbVolume.Name = "cmbVolume";
         //
-        // lblDelay
+        //  lblDelay
         //
         resources.ApplyResources(lblDelay, "lblDelay");
         lblDelay.Name = "lblDelay";
         //
-        // cmbAudioDelay
+        //  cmbAudioDelay
         //
         resources.ApplyResources(cmbAudioDelay, "cmbAudioDelay");
         cmbAudioDelay.FormattingEnabled = true;
         cmbAudioDelay.Name = "cmbAudioDelay";
 
         //
-        // lblCodec
+        //  lblCodec
         //
         resources.ApplyResources(lblCodec, "lblCodec");
         lblCodec.Name = "lblCodec";
         //
-        // cmbCodec
+        //  cmbCodec
         //
         resources.ApplyResources(cmbCodec, "cmbCodec");
         cmbCodec.DropDownStyle = ComboBoxStyle.DropDownList;
         cmbCodec.FormattingEnabled = true;
         cmbCodec.Name = "cmbCodec";
         //
-        // lblSampleRate
+        //  lblSampleRate
         //
         resources.ApplyResources(lblSampleRate, "lblSampleRate");
         lblSampleRate.Name = "lblSampleRate";
         //
-        // cmbSampleRate
+        //  cmbSampleRate
         //
         resources.ApplyResources(cmbSampleRate, "cmbSampleRate");
         cmbSampleRate.FormattingEnabled = true;
         cmbSampleRate.Name = "cmbSampleRate";
         //
-        // lblBitRate
+        //  lblBitRate
         //
         resources.ApplyResources(lblBitRate, "lblBitRate");
         lblBitRate.Name = "lblBitRate";
         //
-        // cmbBitRate
+        //  cmbBitRate
         //
         resources.ApplyResources(cmbBitRate, "cmbBitRate");
         cmbBitRate.FormattingEnabled = true;
         cmbBitRate.Name = "cmbBitRate";
 
         //
-        // AudioConfig
+        //  AudioConfig
         //
         AutoScaleMode = AutoScaleMode.None;
         Controls.Add(fraAudioConfig);
